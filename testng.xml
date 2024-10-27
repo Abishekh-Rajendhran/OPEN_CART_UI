@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Master Suite">
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"></listener>
+	</listeners>
+
+
+	<test name="Test">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="testScripts.TC001_AccountRegistrationPage" />
+			<class name="testScripts.TC002_LoginPage" />
+			<!-- <class name="testScripts.TC003_LoginPage_DDT"/>
+-->
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

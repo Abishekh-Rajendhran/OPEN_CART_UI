@@ -1,0 +1,52 @@
+18:09:51.322 [TestNG-tests-3] ERROR - Failed to create Remote WebDriver session
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'DESKTOP-3L3U818', ip: '192.168.29.120'
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: driver.version: unknown
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: driver.version: unknown
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: firefox, platformName: windows}]}]
+Capabilities {browserName: firefox, platformName: windows}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161) ~[selenium-remote-driver-4.20.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141) ~[selenium-remote-driver-4.20.0.jar:?]
+	at testBase.BaseTest.setup(BaseTest.java:76) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122) ~[testng-7.9.0.jar:7.9.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:819) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.TestRunner.run(TestRunner.java:619) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481) ~[testng-7.9.0.jar:7.9.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58) ~[testng-7.9.0.jar:7.9.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+18:09:53.636 [TestNG-tests-1] INFO  - Remote WebDriver session created successfully
+18:09:55.387 [TestNG-tests-1] INFO  - Browser window maximized
+18:09:55.406 [TestNG-tests-1] INFO  - Implicit wait set to 10 seconds
+18:09:55.490 [TestNG-tests-2] INFO  - Remote WebDriver session created successfully
+18:09:57.115 [TestNG-tests-2] INFO  - Browser window maximized
+18:09:57.201 [TestNG-tests-2] INFO  - Implicit wait set to 10 seconds
+18:09:59.100 [TestNG-tests-1] INFO  - Navigated to URL: https://tutorialsninja.com/demo
+18:09:59.113 [TestNG-tests-1] INFO  - TC001_AccountRegistrationPage Started!.....
+18:09:59.334 [TestNG-tests-1] INFO  - Clicking My Account.....
+18:09:59.700 [TestNG-tests-2] INFO  - Navigated to URL: https://tutorialsninja.com/demo
